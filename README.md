@@ -1,2 +1,5 @@
 # djangoForm
-That is a project that made a validation with form in django, get data and create too. Also create and api with the date
+The virtual environment using pipenv has been added as a part of the zip file. You must activate the virtual environment and ensure dependencies are installed. 
+Configure settings.py in the database in msql with your keys
+Then open the terminalto install dependencies pipenv install django  and pipenv install mysqlclient
+ and put python manage.py makemigration the other make is python manage.py migrate and the last one is python manage.py runserver
